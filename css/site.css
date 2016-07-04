@@ -1,0 +1,143 @@
+/* -------------------------------
+HTML elements
+------------------------------- */
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+}
+textarea {
+    resize: none;
+}
+label {
+    font-weight: 400;
+}
+
+/* -------------------------------
+Common classes
+------------------------------- */
+
+.page {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    min-height: 80vh;
+}
+.page:last-of-type {
+    padding-bottom: 30px;
+}
+.page-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5em;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    align-content: center;
+}
+.thumb {
+    margin-bottom: 50px;
+}
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+.img-center {
+    margin: 0 auto;
+}
+
+/* -------------------------------
+Navigation
+------------------------------- */
+
+.navbar {
+    background-color: white;
+    border: none;
+}
+
+/* -------------------------------
+About page
+------------------------------- */
+
+#about {
+    padding-top: 90px;
+    padding-bottom: 120px;
+    background: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    font-size: 1.4em;
+}
+#skills {
+    margin: 30px;
+}
+#profile-photo {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+/* -------------------------------
+Portfolio page
+------------------------------- */
+
+#portfolio {
+    background-color: #ddd;
+}
+
+/* -------------------------------
+Contact page
+------------------------------- */
+
+#contact {
+    background-color: #777;
+    color: white;
+}
+.social {
+    text-align: center;
+}
+.social a {
+    margin: 30px 10px 0 10px;
+}
+
+/* -------------------------------
+Footer
+------------------------------- */
+
+.footer {
+    background-color: #222;
+    color: white;
+    min-height: 60px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 20px;
+    margin: 0;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+/* -------------------------------
+Media queries
+------------------------------- */
+
+@media screen and (max-width: 768px) {
+    #profile-photo {
+        max-width: 40%;
+        max-height: 40%;
+        margin: 20px auto;
+        display: block;
+    }
+    #about p {
+        font-size: 0.8em;
+    }
+    .flex-center {
+        display: block;
+    }
+    .social a {
+        margin: 20px 5px 0 5px;
+    }
+}
+
+}
