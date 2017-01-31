@@ -6,16 +6,25 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 500;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Montserrat", serif;
     font-weight: 400;
 }
+
 textarea {
     resize: none;
 }
+
 label {
     font-weight: 400;
 }
+
 
 /* -------------------------------
 Common classes
@@ -26,9 +35,11 @@ Common classes
     padding-bottom: 60px;
     min-height: 80vh;
 }
+
 .page:last-of-type {
     padding-bottom: 30px;
 }
+
 .page-title {
     font-family: "Montserrat", sans-serif;
     font-size: 2.5em;
@@ -38,16 +49,20 @@ Common classes
     display: flex;
     align-content: center;
 }
+
 .thumb {
     margin-bottom: 50px;
 }
+
 .flex-center {
     display: flex;
     align-items: center;
 }
+
 .img-center {
     margin: 0 auto;
 }
+
 
 /* -------------------------------
 Navigation
@@ -57,6 +72,7 @@ Navigation
     background-color: white;
     border: none;
 }
+
 
 /* -------------------------------
 About page
@@ -70,13 +86,16 @@ About page
     background-position-x: 50%;
     font-size: 1.4em;
 }
+
 #skills {
     margin: 30px;
 }
+
 #profile-photo {
     max-width: 80%;
     max-height: 80%;
 }
+
 
 /* -------------------------------
 Portfolio page
@@ -86,6 +105,37 @@ Portfolio page
     background-color: #ddd;
 }
 
+.site-thumbnail {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.quote-site {
+    background-color: #B3D1E6;
+    font-size: 350px;
+    line-height: 300px;
+    text-align: center;
+}
+
+.quote-site i {
+    color: #DDDDDD;
+    transform: rotate(30deg);
+}
+
+.site-title {
+    font-size: 30px;
+    background: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 300px;
+    z-index: 999;
+}
+
+
 /* -------------------------------
 Contact page
 ------------------------------- */
@@ -94,12 +144,15 @@ Contact page
     background-color: #777;
     color: white;
 }
+
 .social {
     text-align: center;
 }
+
 .social a {
     margin: 30px 10px 0 10px;
 }
+
 
 /* -------------------------------
 Footer
@@ -117,6 +170,7 @@ Footer
     font-size: 0.8em;
     font-weight: 300;
 }
+
 
 /* -------------------------------
 Media queries
@@ -139,5 +193,6 @@ Media queries
         margin: 20px 5px 0 5px;
     }
 }
+
 
 }
